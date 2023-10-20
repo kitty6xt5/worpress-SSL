@@ -22,7 +22,37 @@ the fourth and final layer is PHP. PHP is an open-source scripting language that
 The scripting layer is made up of PHP or similar web programming languages. This layer hosts websites and web applications.
 
 # So, Lets start our Task....
-## STEP 1 : INSTALL APACHE
+## STEP 1 : 
+## FIRST OF ALL WE HAVE TO CREATE AN INSTANCE OF UBUNTU IMAGE AMI.
 
 
+Launch the instance and connect it through ssh on terminal.
 
+```
+ssh -i "your key" ubuntu@(your publicip).compute-1.amazonaws.com
+```
+
+After connecting the instance, type -
+```
+sudo apt update
+```
+## STEP 2 : 
+## INSTALL APACHE2.
+To install apache2 type
+
+```
+sudo apt install apache2 -y
+
+```
+Enable the apache services-
+
+```
+sudo systemctl enable apache2
+
+```
+## Copy the public ip of that instance and paste it on web browser to check if its working or not.
+
+## STEP 3 :
+## INSTALL MY SQL.
+To install mysql run the following command-
+```
