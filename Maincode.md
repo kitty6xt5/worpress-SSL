@@ -221,7 +221,7 @@ Once you have done this, you can access your WordPress page to finish the instal
 Open the browser and go to-
 
 ```
-https://localhost/wordpress/
+http://(your-ip-address)/wordpress/wp-admin/install.php
 
 ```
 The next screen will open. Click on Continue and select the language.
