@@ -225,5 +225,14 @@ http://(your-ip-address)/wordpress/wp-admin/install.php
 
 ```
 The next screen will open. Click on Continue and select the language.
+After that you can check if its working or not.
 
+```
+http://(your-ip-address)/wordpress/
+
+```
+
+## STEP 8 :
+## PROVIDING SSL CERTIFICATE TO WORDPRESS WEBSITE.
+Now we will provide ssl certificate to wordpress website..
 
